@@ -7,10 +7,11 @@
   (`✨ Add …`, `🐛 Fix …`, `📝 Document …`), et un corps qui dit pourquoi.
 - **Le français** pour les pull requests et les échanges ; **l'anglais** pour
   le code, ses commentaires et les fichiers `CLAUDE.md`.
-- **Une PR, un sujet.** Elle s'ouvre en brouillon, est assignée au
-  responsable du dépôt pour sa review, et n'est fusionnée qu'avec son accord.
-  Son modèle demande ce qui change, pourquoi, comment c'est vérifié, et ce
-  qu'il reste à faire après la fusion.
+- **Une PR, un sujet.** Elle s'ouvre en brouillon et est assignée au
+  responsable du dépôt. Quand il l'a vérifiée, il la marque « Ready for
+  review » : c'est sa review et son accord, et elle est fusionnée dès que la
+  CI est verte. Son modèle demande ce qui change, pourquoi, comment c'est
+  vérifié, et ce qu'il reste à faire après la fusion.
 - **Un message de commit dit pourquoi**, pas seulement quoi : le contexte, la
   décision, ce qui a été mesuré.
 - **Jamais un secret dans le dépôt** — une clé, un jeton, une adresse de base
