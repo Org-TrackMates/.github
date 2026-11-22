@@ -1,0 +1,33 @@
+name: Problème
+description: Quelque chose ne marche pas comme prévu.
+labels: ["problème"]
+body:
+  - type: textarea
+    id: constat
+    attributes:
+      label: Ce qui se passe
+      description: Ce que tu as vu, avec le message d'erreur exact s'il y en a un.
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Ce qui était attendu
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Pour le reproduire
+      placeholder: |
+        1. …
+        2. …
+  - type: input
+    id: version
+    attributes:
+      label: Version et environnement
+      placeholder: "v1.4.0, Windows 11 — ou la page et le navigateur"
+  - type: markdown
+    attributes:
+      value: >-
+        **Une faille de sécurité ne se signale pas ici** : voir SECURITY.md.

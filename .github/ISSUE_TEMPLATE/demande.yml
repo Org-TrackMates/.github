@@ -1,0 +1,16 @@
+name: Demande
+description: Une idée, un besoin, une amélioration.
+labels: ["demande"]
+body:
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Le besoin
+      description: Ce que tu cherches à faire, et ce qui t'en empêche aujourd'hui.
+    validations:
+      required: true
+  - type: textarea
+    id: proposition
+    attributes:
+      label: Une proposition
+      description: Facultatif — une piste de solution, si tu en as une.
